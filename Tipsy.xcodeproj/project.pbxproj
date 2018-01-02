@@ -12,6 +12,8 @@
 		823A95711FF31F23004C7A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823A956F1FF31F23004C7A68 /* Main.storyboard */; };
 		823A95731FF31F23004C7A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823A95721FF31F23004C7A68 /* Assets.xcassets */; };
 		823A95761FF31F23004C7A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823A95741FF31F23004C7A68 /* LaunchScreen.storyboard */; };
+		823A957E1FF36772004C7A68 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823A957D1FF36772004C7A68 /* SettingsViewController.swift */; };
+		82E73CA31FF98E92002EBD02 /* avatar-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E73CA21FF98E92002EBD02 /* avatar-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		823A95721FF31F23004C7A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		823A95751FF31F23004C7A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		823A95771FF31F23004C7A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823A957D1FF36772004C7A68 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		82E73CA21FF98E92002EBD02 /* avatar-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		823A955F1FF31F23004C7A68 = {
 			isa = PBXGroup;
 			children = (
+				823A957D1FF36772004C7A68 /* SettingsViewController.swift */,
 				823A956A1FF31F23004C7A68 /* Tipsy */,
 				823A95691FF31F23004C7A68 /* Products */,
 			);
@@ -57,6 +62,7 @@
 				823A956B1FF31F23004C7A68 /* AppDelegate.swift */,
 				823A956D1FF31F23004C7A68 /* ViewController.swift */,
 				823A956F1FF31F23004C7A68 /* Main.storyboard */,
+				82E73CA21FF98E92002EBD02 /* avatar-2.png */,
 				823A95721FF31F23004C7A68 /* Assets.xcassets */,
 				823A95741FF31F23004C7A68 /* LaunchScreen.storyboard */,
 				823A95771FF31F23004C7A68 /* Info.plist */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				823A95761FF31F23004C7A68 /* LaunchScreen.storyboard in Resources */,
+				82E73CA31FF98E92002EBD02 /* avatar-2.png in Resources */,
 				823A95731FF31F23004C7A68 /* Assets.xcassets in Resources */,
 				823A95711FF31F23004C7A68 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			files = (
 				823A956E1FF31F23004C7A68 /* ViewController.swift in Sources */,
 				823A956C1FF31F23004C7A68 /* AppDelegate.swift in Sources */,
+				823A957E1FF36772004C7A68 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
