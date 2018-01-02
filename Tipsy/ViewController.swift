@@ -82,6 +82,11 @@ class ViewController: UIViewController {
 
         if (tipPercentages[tipControl.selectedSegmentIndex] == 0) {
             tipPercent = Double(CustomTip.text!) ?? 0
+            if (tipPercent > 0) {
+                
+                tipPercent = tipPercent / 100
+                
+            }
         }
         
         let tip = bill*tipPercent
@@ -201,23 +206,19 @@ class ViewController: UIViewController {
 // dark mode vs light mode
 // splitting with multiple groups of people (add a slider?)
 // splash screen
-// add memory of previous save, oo
+// add memory of previous save
 
 /* Completed:
- 
  Settings save tip default
  Change tip to Local currency
  Keyboard defualt on (not dimiss)
  Custom tip 
  Number of split
  Color
- 
  */
 /* to do next:
 
  Save state
- 
- 
  
  */
 
